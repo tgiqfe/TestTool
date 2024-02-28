@@ -1,0 +1,17 @@
+App:
+  Page:
+    Title: "Sample001"
+    Description: "This is a sample001"
+    Type: Cmd
+    Text: 'robocopy "D:\Test\SampleA" "D:\Test\Images_8" /MIR /COPY:DAT'
+    ReturnCode:
+      Code: '=5'
+      Description: '=5, !3, >10, <20, >=11, <=19, '
+    OutputText:
+      Text: '*Success'
+      Description: 'Success, *Failure, Warning*, *Error*'
+    
+
+    
+
+
